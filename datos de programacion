@@ -1,0 +1,1611 @@
+
+atajos en el uso de sublime text 3:
+para buscar cualquier palabra en sublime text se usa ctrl f ...
+para recuperar lo que se acaba de borrar se usa ctrl z ...
+para guardar lo escrito se usa ctrl s ...
+para copiar texto designado ctrl c ...
+para pegar texto copiado ctrl v ...
+
+
+HTML: es el lenguaje donde se define la informacion, el contenido del elemento.
+
+<!DOCTYPE html> =    inicio de proyecto
+ <html></html> =     PAGINA,las cosas que se puden ver y no ver de la misma . siempre tiene que estar al principio y final.
+    <html lang="es" : esto sirve para que la pagina en caso de estar en ingles se pueda traducir al español
+
+    <head></head> =   cosas que no se pueden ver dentro de las paginas (configuraciones, enlaces ETC)
+
+    <title></title> =   nombre de la pagina 
+
+    <body></body> =    cosas que se pueden ver dentro de la pagina (botones, figuras, acciones ETC)
+
+    <h1></h1> =        titulo que aparece en pantalla de la pagina (puede ir del h1 al h6) (solo se pone 1)
+    <h2></h2> =        sub titulos (no usar muchas veces)
+    <h3></h3> =        sub titulos (no usar muchas veces)
+    <h4></h4> =        articulos , secciones ETC (uso ilimitado)
+    <h5></h5> =                                  (uso ilimitado)
+    <h6></h6> =                                  (uso ilimitado)
+
+    <p></p>  =         se utiliza para escribir PARRAFOS por debajo del titulo
+
+    <ol></ol> =         se utiliza para crear una "lista ennumerada"
+    <ul></ul> =        se utiliza para crear una "lista marcada por puntos"
+    <li></li> =        se utiliza para señalar que "es parte de la lista"
+
+    <b></b> =          se utiliza para escribir parrafos de color "negro"
+    <i></i> =          se utiliza para escribir parrafos con letra "Italica/cursiva"
+    <small></small> =  se utiliza para escribir en letra "chiquita"
+    <strike></strike> = se utiliza para "tachar" las palabras
+    <u></u> =           se utiliza para escribir palabras sub rayadas
+    <mark></mark> =     se utiliza para marcar las palabras
+
+ <a></a> =      se utiliza para rediriguir paginas con el atributo HREF="HTTPS://WWW.NOMBRE">clic aqui (manera externa)
+                se utiliza para rediriguir paginas con el atributo HREF="NOMBRE DE ARICHIVO">clic aqui (manera local)
+                Target como atributo despues de href para hacer que abran en otra pestaña Target="_BLANK">
+
+    <br> =      completa linea de parrafo (lo continua abajo)
+
+    <section></section>= se usa como divisor de secciones, para contenedores divs , contenedores imagenes, parrafos ETC.
+
+    <figure></figure> = es una etiqueta contenedora para guardar una O mas imagenes.
+
+    <img =           con el atributo src="URL/ENLACE">
+                     con el atributo src="LUGAR DONDE ESTA EL ARCHIVO/NOMBRE DE LA CARPETA"
+                     con el atributo alt="nombre de la foto" define el titulo de la foto en caso de que no aparezca (PONER  SIEMPRE)
+                       con el atributo title="titulo de la imagen"
+    <video></video> =  para reproducir video <video src="URL/ENLACE DE VIDEO">
+                       para mostrar los controles del mismo se usa en atributo CONTROLS>
+                       otro atributo es preload="auto", esto ayuda a que el video se cargue automaticamente cuando la pagina se esta cargando
+     <audio></audio> = funsiona igual al funcionamiento del video
+
+     <div></div> =     sirve para separar y agrupar contenido (divide areas)
+
+    <form></form> =   formularios con atributos <input : entrada de datos>. <output : salida de datos>.
+        EJ=            <input type="text"> (para escribir)
+        EJ=            <input type="password" required=""> (para contraseña)
+        EJ=            <input type="number"> (para escrbir numeros)
+        EJ=            <input type="date"> (paea poner fecha)
+        EJ=            <input type="time"> (es para poner horario)
+        EJ=            <input type="submit"> (es el boton de enviar)
+                        atributo required es (completar obligatoriamente)
+    <form action=""> dentro de las comillas va la URL de la base de datos a la cual se le envia la informacion.
+    tambien se puede usar el atributo placeholder para marcar al usuario lo que tiene que llenar en esa casilla.
+    <span></span> = se usa para mostrar la informacion sobre que se trata el campo a rellenar, puede ser pregunta O decir de que se trata el campo O como se llena.
+    <label></label> = se usa antes del input con el atributo form="".
+    dentro del form se escribe el id de nombre que va a allevar el input.
+
+ <meta> =   (etiqueta solo poner en head) para cambiar codificacion de la pagina
+            <meta charset="utf-8"> atributo charset es (conjunto de carecteres)
+            <meta name="keywords"> atributo keywords es (palabra clave)
+            <meta content="EJ: harina, leche"> (se pone luego del key y son las palabras claves)
+            <meta name="description" content="(descripcion de la pagina de 70 a 140 caracteres)">
+            <meta name="author" (creador) content="mi nombre">
+            <meta name="copyright" (dueño en caso de empresas) content="nombre de empresa">
+            <meta name="robots" (index, noindex) (para que aparzca la pagina O no, cuando se busca en el navegador) content="si/no">
+            <meta name="viewport" content="width=device-width, inictial-scale=1.0"> (ayuda a hacer risponsiveel sitio , dependiendo el navegador que el usuario use, pueden escalar las letras, hacerse masgrandes)
+
+ <header></header> =    encabezado de la pagina ("cartel de bienvenida")
+
+ <nav></nav> =      es la barra de navegacion que te lleva a distintas secciones dentro de la pagina
+                    se utiliza con las listas <ul> <li><a href=""></a></li>
+                    para utilizar es <a href="nombre de la seccion"></a>
+            EJ:     <li><a href="otro nombre de carpeta.html">nombre que aparece en pagina</a></li>             
+
+  <article></article>=  articulo/s de la pagina
+
+  <section></section>=  va de la mano con <article> y se utiliza para dividir cada uno de estos
+
+  <aside></aside>=      se pueden utilizar con <H2 Y P> para crear un contenido secundario a un costado
+
+  <footer></footer>=    es el pie de pagina (enlaces de contarnos, si tiene copyrigt ETC) se usa con H4 H5 H6
+            EJ:         <a href="https://instagram/s.grinblat">instagram</a> para rediriguir a la cuenta de instagram
+            EJ:         <h4>podes contactarnos de 08hs A 18hs hacia el numero 1123014038</h4>
+
+  <table></table>=      una tabla ("tiene columnas y filas") sirve para recompilar datos dividos en estas columnas
+
+         <tr></tr>=     va de la mano con tabla y se utiliza para definir las filas
+
+         <td></td>=     se utiliza para definir los campos por fila
+                        con el atributo border que es la actidad de pixeles que puede tener un borde (cno se usa mas)
+
+   <center></center>=   sirve para centrar en la pantalla el contenido de su interior ej: una foto
+            EJ:         <center> <ing src="rescate.png">
+
+        <link>          sirve para colocar un icono en el nombre de la pagina.
+                        con el atributo rel="icon" href="ruta/nombre del archivo IMPORTANTE QUE SEA FORMATO ICO"
+
+       <form></form>    se comporta como un div , es formar un bloque.
+
+       <select></select> = con los atributos name="" y id="" , dentro del nombre es la opcion a seleccionar.
+       se usa con la etiqueta <option></option> donde se coloca la opcion a generar dentro de la opcion valor se tiene que poner lo mismo que al costado, esto genera que esa opcion se guarde y envie a la base de datos.
+    EJ: <main>
+            <select name="cursos">
+                <option value="html">html</option>
+                <option value="css">css</option>
+            </select>
+        </main>.
+        tambien hay otra forma de generar un mejor resultado es:
+        <main>
+                <input list="cursos">
+                <datalist id="cursos">
+                <option value="javaScript">javaScript</option>
+                <option value="html">html</option>
+                <option value="css">css</option>
+                </datalist>
+            </main>
+            de esta forma se crea un input con opciones a eleguir y a escribir, lo hace mejor para el usuario.
+
+ <style></style> =   con el atributo type="text/css">aca va el codigo css>
+                tambien se puede utilizar style como atributo dentro de parrafos para marcar de que color es el mismo
+        EJ:     <p style=":red"> </p>
+
+    <link> =      con el atributo rel="stylesheet" type="text/css" href="">  el atributo rel con el valor ="stylesheet" ("significa hoja de estilo)
+            con el atributo type con el valor ="html/css" ("tipeo que realiza el atributo")
+            con el atributo href="NOMBRE DEL ARCHIVO/RUTA/URL" (ES IMPORTANTE QUE TERMINE EN .CSS)
+
+    <script></script> = para abrir archivo js 
+    EJ:<script src="aprendiendo.JS"></script>
+
+   #DATO = <a href="#codigo"> sirve para detectar parrafos en especifico ej : <h2 id="codigo">codigo es hola</h2> este ID sirve para detectar y mover la pagina a ese parrafo/codigo en especifico. (id="codigo") es un identificador en especifico
+
+                                                   HTML TERMINA ACA 
+
+--------------------------------------------------------------------------------
+CSS: se crea el diseño del documento
+
+CSS EMPIEZA ACA 
+
+ se pueden usar variables en el estilo.css
+ estas nos van a ayudar en caso de no recordar medidas, colores principales, tipos de fuentes ETC.
+ se hace poniendo en css :root {y aca adentro se van agregando los datos ej:
+ --primary-color: #003476;
+ --secundary-color: #b4d2f7;
+ --header-size: 4rem;
+ --font: 1.8rem;
+ una vez que ya tengamos todos los datos, para utilizarlo se va a la caja que queremos que tenga el dato asignado y se escribe : background-color: var(--primary-color);
+ y de la misma forma con cada uno de los datos que previamente asignamos a la variable
+ }
+
+
+ para editar primero se seleciona "la caja a utilizar" Y luego se seleciona la misma caja para darle estilo ej:
+ .caja{ margin:   background:  transition:  } para controlar la caja. es una contenedora.
+
+ .caja+ elementos O seudo elementos O lo que sea. {background}. para darle estilo a la caja. es una caja de estilo dentro de la contenedora.
+
+
+selecotor {}  =
+     sirve para seleccionar el O los elementos a los cuales se realizaran cambios
+ propiedad: =        es lo que se le va a cambiar a ese objeto EJ: color, tamaño, bordes , sombras ETC
+    EJ=             selector {priedad: color: valor=("el valor es el color en especifico. ESTE VALOR SIEMPRE AL FINAL LLEVA ; ")}
+    EJ=             selector {tamaño: grande;} (esto en estilo.css)
+    EJ=             selector {bordes anchos;}  (esto en estilo.css)
+ css selectores=     tipos de selectores que hay
+            EJ:     UNIVERSAL ( * ) seleciona a TODOS los elementos (esto en estilo.css)
+            EJ:     DE TIPO ( seleciona por nombre de elemento EJ: h1 , button , title ETC) (esto en estilo.css)
+            EJ:     SELECIONAR POR CLASE es asignar un atributo a un elemento EJ: <h2 class="titulo-h2"></h2>
+                    de esta forma este elemento va a pertenecer a una clase llamada h2
+                    para utilizar la asignacion por clase en este caso es: .titulo-h2 (despues del punto va el nombre de la clase) (esto en estilo.css)
+            EJ:     ID ( # ) EJ: (#id-element) en el elemento se pone id="nombre asignado" 
+                    ej: <h2 id="-nombre"></h2> (en codigo de pagina index.html) , (para modificarlo en estilo.css) es: #id-nombre
+            EJ:     POR ATRIBUTO se selecciona el nombre del atributo entre corchetes ( [] ) 
+                    ej: [class="titulo-h2"] {color: red;} y asi es como se cambia el texto dentro de ese atributo (esto en estilo.css)
+            EJ:     POR DESCENDIENTE se seleciona al contenedor de ese atributo a cambiar (esto en estilo.css)
+                    <h2><p>palabra a cambair de color</p></h2> el contenedor es el <h2></h2> y el atributo a cambiar el color es el<p></p>
+                    ej: h2 p {color: blue;} (esto en estilo.css) 
+            EJ:     PSEUDO CLASES se utiliza para no dejar una palabra de un color todo el tiempo , si no que sirve para que cuando el mause 
+                    pase por el elemento asignado se cambie de color al eleguido
+                    ej: <h2><b>texto que cambia de color</b></h2> (esto en index.html) determinando el elemento b con el atributo hover se genera este efceto
+                    ej: b:hover{color:blue} (esto en estilo.css) 
+                                          
+-----------------------------------------------------------------------
+
+ESPEFICIDAD: RANGOS Y JERARQUIAS=
+                    un solo cargo         !inportant ej: 
+
+                    un solo cargo         estilos en linea ej: es el atributo style mas un valor (esto en estilo.css)
+
+                    un solo cargo         identificadores ej: ID #id-element (esto en estilo.css) <h2 id="-element"> (esto en index.html)
+
+                                          clases ej: es el titulo que se le asigna a un atributo . <h1 class="color-capo"> (en idex.html)
+                    una misma jearquia    pseudo-clases ej: <b> mas un atributo . <b:hover> (esto en estilo.css)
+                                          atributos ej: class. src. etc (en idex.html)
+
+                    una misma jearquia    elementos ej: <h1></h1>. <h2></h2>. etc (en idex.html)
+                                          pseudo-elementos ej: <a></a>. <b></b>. etc (en idex.html)
+ esto es determinar jerarquias en este caso de colores= si el pseudo-elemento tiene determinado un color (verde) . el elemento va a poder cambiar a otro color (rojo) , por encima estan los atributos quien designa un color distinto (azul), mas arriba esta la pseudo-clases, que pasa por encima de los demas y cambia a otro color (rosado), despues clases es superior a pseudo , por lo tanto designa el color (amarillo), identificadores al tener un cargo mayor cambia otra ves el color del texto y lo designa (marron) , por lo alto esta estilos en linea el cual no le gusta el marron y lo cambia por el color (blanco) Y POR ENCIMA DE TODOS ESTA !INPORTANT el cual termina decidiendo que el color definitivo sea (negro)... es una breve forma de explicar las jerarquias y aplicar este metodo en caso de cambiar algun color de forma global U oarticular (esto en estilo.css)... 
+                                      Al tener una misma jerarquia se aplica la regla de cascada. 
+                                   
+----------------------------------------------------------------------
+REGLA DE LA CASCADA=
+
+ es cuando dos funciones son iguales en jerarquia ej: h1 / h2 . al poner la funcion h1 con el valor rojo el texto sera rojo , ahora cuando pones la misma funccion con el valor azul el color del texto va a cambiar y se va aponer azul esto es porque el texto comprende como valido el ultimo valor asignado por la ultima funsion en este caso h1 {color:blue;}                                            
+
+------------------------------------------------------------------------
+
+METODOLOGUIA BEM =
+ es una metodologuia que consiste en evitar selecionar muchas clases para determinar un color en particular a cada funcion . esto nos va a ayudar a conocer y darnos cuenta de que elemento estamos selecionando dependiendo de la clase , nos basamos en el nombre de la clase para saber que elemento estamos selecionando ej: 
+
+ <div class="contact-form"> (en idex.html)
+    <input type="text" class="contact-form__input"> (input como elemento) Y (se utiliza doble guion bajo)
+    <input type="text" class="contact-form__input"> (en idex.html)
+    <input type="password" class="contact-form__input"> (en idex.html)
+ </div>                                                
+ en caso de tener dobles parrafos y querer selecionar solamente el primero para cambiar el color es ej:
+
+ .contact-form__input:first-child{color: blue;} (esto en estilo.css).
+
+ otra forma para eleguir una clase en particular es ej:
+
+ <input type="text" class="contact-form__input--hoja"> (hoja como nombre de elemento, puede ser cualquier palabra) Y (se pone con doble guion medio)
+ <input type="text" class="contact-form__input--hoja">  (en idex.html)
+ <input type="text" class="contact-form__input">
+ se utiliza ( --hoja ) para remarcar las diferencias y cual debe ser cambiado de color sin necesidad de ser el primero
+
+ ahora para designar un color en especifico es ej:
+
+ .contact-form__input--hoja{color: gold;} (esto en estilo.css)
+
+ lo que se ponga en <div class="TITULO"> este "titulo" es el valor que va a tener que ir en cada input siguiente
+--------------------------------------------
+LOS COMBINADORES= 
+ nos permiten combinar multiples selectores y crear una mayor especificidad estos son.:
+
+ hermanos adyacentes O cercanos ej: h2 + p {color: red;}
+ de esta forma se va a poner en rojo todos los P que vengan luego de una etiqueta h2.
+
+ hermanos generales ej: h2 ~ p {color: azul;} de esta forma se pone azul siempre en cuando haya una etiqueta P por debajo de un h2, al ser hermano general adoptan los mismos valores. no importan si tienen otras etiquetas por abajo y arriba siempre en cuando esten en la misma linea aun asi cambian el color.
+
+ hijos ej: div > p {color: green;} . de esta forma se le esta agregando el color verde a la etiqueta P que es HIJO de la etiqueta DIV , se habla de hijo directo (una etiqueta p dentro de una etiqueta div) , si hay un p dentro de otras etiquetas que no sean div, no se va a poner en verde porque no es hijo directo
+
+ Decendiente ej: div p {color:gold;} asi se llaman a TODAS las etiquetas P que contengan un contenedor (div) O alguna etiqueta. Esta es la forma decendente y la forma mas comun de combinar los elementos para una mayor especificidad
+----------------------------------------------------------
+
+tipografias y unidades de medidas= RELATIVAS Y FIJAS
+
+ relativas = depende de algo , son variables   
+
+ fijas = ej: px , milimetros , centimetros , puntos. 
+
+ TIPOGRAFIAS= <h2 type="text" class="contact-form__h2"></h2> (en idex.html)
+      EJ:   {font-size} ej: cambia el tamaño de letra ej: 40px. 
+      EJ:   contact-form__h2{font-size:40px;} (esto en estilo.css).
+      EJ:   contact-form__h2{font-size:40mm;}
+      EJ:   contact-form__h2{font-size:40cm;}
+      EJ:   {font-famili} es la tipografia ej: font-famili:Georgia;
+      EJ:   {line-height} ej: es el espacio que ocupa una letra mientras mas line-heihght mas es el espacio que ocupa la letra ej: line-height: 2; una sola letra ocupa el lugar de dos letras
+      EJ:   {font-weight} cambia el grosor de la letra ej: font-weight:700;
+      EJ:   {font-} 
+      EJ:   {width} ej: largo, y se escribe con vw {width:100vw;}
+      EJ:   {height} ej: es el alto y se escribe con vh {height:100vh;}
+
+MEDIDAS RELATIVAS= REM Y EM
+      EJ:   por defecto 1 EM son 16px. esto nos va a servir para calcular cuantos px son por EM ej: 16px x 5 EM= 80px
+      pero aun asi EM puede valer la cantidad que nosotros necesitemos . esto se llama "heredar valor" se trata de cuando se pone un contenedor de ej: 20px , 1 EM va a valer 20px y no 16 por su valor estandar.
+      ej: { font-size: 20px; } al modificar su valor mediante el contenedor su valor ahora es 1EM=20px. y si calculamos 20px x 5 EM=100px
+
+    ej: .contact-form {font-size: 20px;} caja contenedora ... (esto en estilo.css).
+    ej: .contact-form__h2 {font-size: 1EM;}
+
+       A esto se le llama heredar valor , es cuando hereda el valor de la planta superior
+ 
+ un REM es igual a 16px, la diferencia entre estos, es que REM siempre va a tener referencia al estilo que tenga la etiqueta ROT (html, 16px).
+ se puede usar una ayuda que es poner en css
+ html {font-size: 62.5%} y luego en un P (o una medida a cambiar) poner p {font-size: 1.6rem;} 
+ de esta forma el formato de la letra va a ser igual a 10px, (si quiero 16px voy a poner 1.6rem, si quiero 20px voy a poner 2rem, si quiero 30px voy a poner 3rem).
+ y asi es mas facil de poner la cantidad de pixeles necesarios en medida de REM sin la necesidad de calcular tanto
+ 
+ A diferencia de EM es que siempre va a tener referencia de su padre directo con las medidas asignadas
+ -------------------------------------------------                
+
+TEORIA DE CAJAS
+ Hay solamente dos tips de cajas , las que son en bloques y las que son en linea. las que son en bloques son las mas importantes ya que dividen a la pagina por bloques ej: el largo total de un renglon de la pagina =
+ ¡------------------------------------------------------------------------------------------------------------------------------!
+ este es el bloque que ocupa todo el ancho de la pagina de un solo renglon, es el total de la caja que lo contiene.
+ ¡__________________________________________!
+
+ las que son en linea ocupa solamente el ancho de las palabras dentro de la caja contedora=
+ ¡--------------------------------------------------------/------------------------------------------------------------!
+ solamente ocupa el tamaño que tiene dentro del contenedor/ y del otro lado de la caja puede ir otro elemento en linea
+ !___________________/_____________________¡
+
+ se pueden cambiar los elemntos en bloques para trasnformarlos en elemento en linea. esto se hace ej: con la propiedad 
+ display:inline; : h2{display:inline;} (esto en css)
+ display:inline-block;
+
+------------------------
+
+PROPIEDADES DEL TEXTO
+  (Tamaño,Tipo de Letra, Grosor, Letra, Font-style, text-decoration, list-style, text-aling (para mover letra O centrarla) )
+
+ PROPIEDADES DE CAJA (Tamaño, Background, color, image, border-radius, padding, margin, box-shadow)
+
+ DISPLAYS (Block, Inline-block, Flex, Grid, None)
+
+ POSITIONS (Absolute, Relative, Inherit)
+
+ hover
+
+ Top, left, right, bottom
+
+background=
+ BACKGROUND-COLOR = permite cambiar el color de fondo de un elemento (SE RECOMIENDA UTILIZAR SOLO BACKGROUND: para crear color, bordes, y el stilo)
+
+ BACKGRUND-IMAGE: url() ej:background-image: url(https://www.wallpapertip.com/wmimgs/5-54902_high-resolution-macbook-wallpaper-hd.jpg); (esto en estilo.css)
+
+ BACKGROUND-SIZE= se utiliza para adaptar O modificar una imagen dentro de un contenedor. como cambiar de lado, resolucion, grandor ETC... se puede utilizar con el valor COVER (hace que la imagen se ajuste) 
+
+ BACKGROUND-CLIP= recorta la imagen dependiendo del valor que le vamos a dar. segun el valor dado es de donde comenzara la imagen...  se usa con los valores: (border-box , padding-box , content-box)
+
+ BACKGROUND-ORIGIN= la imagen se crea apartir de donde querramos nosotros teniendo en cuenta el valor que le demos...(tiene los mismos valores a clip).
+
+ BAKCGROUND-POSITION= se utiliza con las propiedades left - top - bottom - right - center ++ left - top - bottom - right - center... esto lo que hace es mezclar propiedades para darle una direccion a una caja ej: (left top)... esto hace que se la imagen se mueva dentro del contenedor hacia (izquierda arriba) (el primero es horizonatal y el segundo vertical)
+
+ BACKGROUND-ATTACHMENT= con el valor :fixed esto genera que la imagen sea parte del fondo y si hay texto que el scroll baje pero la foto sigue estatica de fondo.
+
+--------------------------
+
+PADDING= 
+ es la distancia entre los bordes de la caja y el texto. estos padding tiene atributos como:
+ PADDING-LEFT= es la distancia entre los bordes izquierdos y las letras.
+ PADDING-TOP= es la distancia sobre los bordes de arriba y las letras.
+ PADDING-RIGHT= es la distancia entre los bordes derechos y las letras
+ PADDING-BOTTOM= es la distancia entre los bordes de abajo y las letras
+ (ahora, en ves de utilizar cada codigo , simplemente se utilizar PADDING: "mas numero de pixeles" y esto hara que los lados sean todos proporcional a la cantidad de pixeles determinado. si queremos dividir el area en dos lados distintos basta con poner otra cantidad de pixeles al lado de la ya determinada ej:20px 30px =con esto lo que hacemos es solicitar que tenga de arriba y abajo 20px y de derecha a izquierda 30px)
+
+ HEIGHT= ES EL ALTO del fondo del elemento
+ WIDTH= ES EL ANCHO del fondo del elemento
+ text-aling= con el atributo center lo que hace es centrar el texto a la caja .
+
+MARGIN=
+ en caso de haber dos cajas en el mismo lugar, el margin es la distancia que hay entre las dos. Al igual al padding , el margin tiene los mismos atributos . left, top, right, bottom
+ lo que hace de diferente a la otra, es que margin lo que hace es crear distancias entre cajas y no de un texto y la caja.
+
+BORDER-RADIUS=
+  lo que es crear bordes redondos y no cuadrados , este esquema se puede usar con px y %
+
+  codgio para cerrar caja 
+
+BORDER=
+ utilizando asi solo se puede complementar para evitar copiar cada uno de los demas atributos... primero se pone el tamaño del borde (PX) despues viene el estilo de borde (solid , dashed , double). viene el color que querramos que sea el borde (blue, red etc).
+ ej: border: 10px double gold;
+
+BOX-SHADOW=
+ se utiliza para darle sombras a una caja . se utiliza pniendo primero (PX DE EJE Y) , (PX DE EJE X) , (TAMAÑO DE SOMBRA ej: 15px) , (CUANTO BORDE TIENE LA SOMBRA ej 0) y por ultimo (el color)
+ ej: box-shadow: 2px 4px 15px 0px black;
+
+TEXT-SHADOW=
+ es aplicar la misma teoria que (box-shadow) solo que esta ves lo aplicamos solamente a lo escrito. (con la diferencia que el text-shadow no tiene borde de sombra)
+
+ ds
+
+TRANSFORM: ROTATE=
+ se utiliza para rotar EN GRADOS todas las cajas y lo que contiene
+ ej: transform:rotate(-40deg)
+ deg = grados
+
+OUTLINE=
+ es un de resaltador , no afecta el tamaño de la caja pero si la remarca generando una especie de borde fuera de la caja eto genera que la caja siga valiendo 20px y el outline sigue teniendo su propio margen de 3px sin afectar el tamaño del objeto a resaltar.
+
+POSITION= 
+ es la forma y el orden en que se posicionan las cajas.
+ POSITION RELATIVE= adquiere las medidas de propiedades , mantiene su espacio en pantalla y adquiere la propiedad de (z-index) las propiedades que mas valen son TOP Y LEFT aunque esten las otras medidas, al ser las de mayor valor las cajas adoptan solamente estas medidas, en caso de querer usar BOTTOM Y RIGHT se necesita no escrbrir (top y left). se puede superponer a otra caja, con la medida position:relative; POR DEFECTO (cada ves que se necesite mover una caja esto debe estar colocado en cada elemento a mover ej: postion:relative; . en cada caja a mover)
+
+ z-index= es la forma de posicionar una caja por encima de otra , esta forma NO se va a encontrar POR ENCIMA , si no que va a estar superpuesta a la otra caja. se recomienda cuando se utilice z-index en muchas cajas agregalarles valor altos ej: de 50 en 50 = z-index:50, en otra caja= z-index:100. y asi por cada caja que se realice. teniendo en cuenta que la caja Z con mayor valor es la caja que va a estar superpuesta. este metodo se usa por si luego se quiere poner otra elemento en el medio entre la caja 50 y la 100.
+ ahora para poner superponer una caja con numero z menor a la otra , la unica forma es agregar -1 y borrar el otro z-index de la caja a la que nos vamos a super poner
+ ej: .contenedor padre{SIN Z-INDEX} , .hijo{z-index:-1} de esta forma vamos a superponer una caja con menor valor que otra.
+
+ POSITION ABSOLUTE= A diferencia del position relative, cuando posicionamos un elemento este no conserva "su lugar" en la posicion anterior, el punto de referencia que lo contenga va a ser biport O el contenedor en caso de que este posicionado . Ademas el tamaño del bloque se va ajustar al tamaño del contenido.
+
+ POSITION FIXED= es igual que absolute solo que los elementos en este caso quedan fijados. Generalmente se usa en menues , esto te da la funciones de crear una barra de navegacion que quede quieta en la parte de la pantalla que se decida.  ej: <div class="caja-fixed"></div> (esto en html) para selecionarlo es .caja-fixesd (esto en css)
+
+ POSITION STICKY= es una combinacion entre position fixed y position relative , saca una parte de cada uno. se queda estatico pero tambien podes cambiar su posicionamiento.
+                     ---------------------------------------------------------------------------------------------------
+
+DISPLAY= 
+  modifica el comportamiento de una caja O cajas en particular.
+  DISPLAY-BLOCK= los Atributos naturales que utiliza html ( div , p , etc). estos son lo elementos que generan bloques de texto, se ajusta todo el estilo al bloque , sin expanderse mas.
+  DISPLAY-INLINE= tambien son atributos naturales de html , se usa generalmente para textos
+  DISPLAY-INLINE-BLOCK= son una mezcla de block E inline : se utiliza para modificar las dimenciones de la caja ej: ajustar el ancho y largo de la caja y poder poner un elemento al lado de otro. ej: p{ display: inline-block; } (todo esto en css)
+ 
+ display:block; : es el que viene por defecto en el navegador , ocupa el 100% del width (la pantalla) con los estilos que le pongamos
+
+ display:inline-block: permite a sus hermanos abarcar espacios vacios. El estilo dado se quedara pegado al contenedor y su texto.
+ Nos permite manipular width, heigth, usar padding y margin a voluntad.
+
+ display:inline: genera que es estilo se centre solamente en la caja y cajas que tengamos , cada caja puede tener su propio estilo y se va a ajustar a su caja, esto permite poder colorcar elementos al lado al estar pegados O abajo de sus cajas hermanos. no nos permite usar width, heigth, ni agregar margin ni padding en ninguna direccion.
+ 
+ -----------------
+
+HOVERFLOW: 
+ es el scrol es la barra a la derecha de las paginas sirve para bajar O subir en las paginas
+ HOVERFLOW-AUTO: genera un scrol dentro de una caja para acumular mucho texto dentro de la misma ej: overflow: auto; (esto en css).
+
+FLOAT:
+ se puede utilizar para poner imagen y texto dentro de una misma caja . dentro de una caja contenendora. se pone ej: float: right; , float: left;
+ ej: .contenedor img { float: right;} (esto en css)
+
+ ---------------------
+
+PSEUDO ELEMENTOS= 
+ ::first-line . se utiliza para cambiar el color O letra a la primera linea de texto ej: <div class="nombre de elemento"> (esto en html)
+ (funciona solamente con elementos en bloque)...     ej: .nombre del elemento::first-line{color:blue font-size:3em;} (esto en css).
+
+ ::PLACEHOLDER . se utiliza para cuando utilizamos un input pueda aparecer un texto en la barra a completar ej:  <input type="text" placeholder="inserte su nombre aqui"> (esto en html)... y para darle color O cambiar tipo de letra O tamaño usamos ej:    input::placeholder {
+    color: red; }  (esto en css).
+ 
+
+ ::AFTER= se utiliza para escribir fuera del dom... SI O SI necesita la propiedad content 
+ ::BEFORE= se puede utilizar para escribir em la pagina fuera del dom , es decir que sale en la pagina pero es como si no estuviera.
+ se utiliza ej: b::before {(como etiqueta)content="aca se escribe la palabra a escribir fuera del dom"} (esto es estilo.css) SI O SI se necesita la propiedad (etiqueta) content.
+
+ :active= se utiliza en un ejemplo para cambiar de color una caja cuando se pulsa esa tecla, es como HOVER , solamente que este requiere que se aprete la caja para cambiar de color. se usa ej: (elemento) .caja:active{background: para definir el color de la caja a la hora de pulsar} (esto en estilo.css).
+
+ :focus= se utiliza para cambiar el color en un elemento selecionado . esto se utiliza con <input> .
+ ej: .caja:focus {background: silver;}
+
+ OBJECT-FIL= se utilizar para modificar la resolucion de imagenes (ES MUY IMPORTANTE) . tiene las siguientes propiedades para modificar.
+
+ CONTAIN= hace que las medidas de la imagen sean las mismas , ajustandose a la caja contenedora de la imagen.
+
+ COVER= cover ajusta la resolucion y medida de la imagen a la caja contenedora.
+
+ NONE= usa las propiedades de la imagen por defecto , no se ajusta a la caja contenedora y deja la imagen con las medidas de base.
+
+ SCALE-DOWN= esto lo que hace es quedarse con las mejores propiedades siempre dirigida a la menor resolucion para mantener una imagen visible y ajustada al contenido.
+
+ OBJECT-POSITION= se utiliza para mostrar mas un lado de la foto que otro. se usa con los valores top, right , buttom,  left .
+                                  ---------------------------------------------------------------------------
+                                           
+¡¡BUSCAR E INVESTIGAR COLORES COMO SE ESCRIBEN EN HEXADECIMAL O RGB!!
+en : (html color picker)
+                                                                                        !
+¡¡¡hexadecimal= es el tipo de color excato con su valor numerico.!!!
+ej: #fff (se utiliza con 3 U 6 caracteres).
+
+¡¡¡RGB= es el color que se forma al conbinar los tres primarios Red green Blue a cada uno de estos se les va a dar un % (porcentaje) para crear un color en expecifico.
+ej: rgb(o.o.o). !!!
+--------------------------------------------------------------------
+
+FLEX= 
+ permite que el contenido sea flexible dependiendo de la caja contenedora . esto permite que las cajas se ensanchen O achiquen. Pero no en diferencia de largo.
+ ej: <div class="flex-item orange">caja1</div> (esto en html).
+ ej: .flex-item {
+    background-color: darkorange; =color de caja
+    color: #fff;   = color de letra
+    margin: 5px;   = margen de las cajas entre si
+    min-width: 120px;   
+    text-align: center;   = posicion de la letra
+    height: 100px;    =
+    margin-top: auto;   = posiscion contraria a top
+    margin-bottom: auto;   = posicion contraria a boottm
+    flex-grow: 1;  = es la cantiada de espacio sobrantes para añadir a cajas
+    (esto en estilo.css)...
+
+ FLEX-GROW= se utiliza para añadir el espacio sobrante a las cajas y asi siempore mantener la forma de las cajas... tambien se puede solamente aportar a una sola, designando a la caja que quiero que se expanda.
+
+ PROPIEDADES:
+
+ FLEX-DIRECTION= se aplica solamnete al contenedor y sirve para cambiar del contenido para dejarlo de arriba hacia abajo O de izquierda a derecha.
+ se utiliza con (row , column) row: es para dejarlo de izquierda a derecha y column es para dejarlo de arriba hacia abajo. agregando . (reverse) genera los movimientos opuestos de caga caja.
+ ej:  flex-direction: row-reverse; (esto en estilo.css)
+
+ FLEX-WRAP= se utiliza para dejar a las cajas de un mismo tamaño solamente que las manda hacia abajo O arriba, se conbina con flex direction.
+
+ FLEX-FLOW= es para usar flex direction y flex wrap. solamente se pone flex-flow:direction wrap... y asi se pueden utilizar los dos juntos sin necesidad de escribir cada uno.
+
+ JUSTIFY-CONTENT= se utiliza para centar el contenido, para darle el mismo margen a cada caja, para darle las mismas dimensiones  ETC... esto se hace poniendo
+ justify-content:center , space-arround (funciona como un margin:auto) , space-between (se utiliza para darle un mismo margen a todas las cajas) , space-evenly (es para que cada caja tengan los mismos margenes)
+
+ ALINGN-ITEMS= se utiliza con flex-star , center , flex-end . estas propiedades sirven para colocar la caja arriba de la pagina , para centrarla O para colocarla abajo.
+
+ con la propiedad stretch , sin darle un height a los contenedores , va a generar que estos se alarguen a la totalidad del height del contenedor padre.
+ y esta la propiedad baseline, hace lo opuesto, si le sacamos height se va a justar al espacio que tenga su contendio, Y NO al contenedor padre.
+
+ tambien esta la propiedad ORDEN: esto es el orden en que quiero poner loc contendores hijos directo de css. si tengo 5 contendores basta con poner order:2 , en el contenedor 4 (el contenedor que quiero mover). y asi es como se va a pasar a esa posicion
+
+ estos se pueden utilizar solo en flex contenedores
+                                ------------------------------------------------------------------------------
+       
+PROPIEDADES DE LOS ITEMS= 
+ estos se pueden utilizar en los flex-items (no en contenedores)
+ ALING-SELF= se puede utilizar para mover una caja en especifico. ej: aling-self: flex-star(para mandar esa caja en especifico arriba) ,  center ( para poner en el medio esa caja) 
+
+ flex-basis= tiene el mismo funcionamiento que width , flex-basis tiene mayor impotancia
+
+ Order= (como el z-index, pero en el eje en el que apunta el main axis). es decir el orden de la caja puede cambiar de izquierda a derecha O al revez. asi tambien de arriba o abajo ... esto en caso de que necesitemos posicionar una caja en especifico debajo de otra. esta caja en especifico siempre va a ir al final de del resto. SE UTILIZA ej: poniendo en caja contenedora el orden de las cajas y se pone ORDER: 1 , 2 , 3 , 4 etc... (para posicionarlo entre las cajas) en la caja especifica a cambiar
+
+ GRID= es un valor de la propiedad display, ej: display:frid; y es una form para trabajar con grillas.
+
+ GRID-CONTEINER= es la totalidad de la grilla. es lo mismo al flex-container.
+
+ GIRD-ITEM= cada uno de los elementos que formen parte del conteiner es un item ej: (<p><b></b></p>). y cualquier otro elemento que vaya en posterior al contenedor.
+
+ GRID-CELL= se le denominan celdas a cada uno de estos espacios a determinar dentro del conteiner
+
+ GRID-TRACKS= son las (columnas y rows) es decir el cuerpo que le vamos a dar a estas celdas si en forma de columnas O a su hancho siempre mas de 2 celdas y no se pueden cruzar
+
+ GRID-AREA= las decidimos nosotros, y es necesario mas de 2 celdas y no se pueden cruzar. tienen que ser consecutivas
+
+ GRID-LINE= se divide en (column line) Y (row line)
+
+ ¡¡¡ES IMPORTANTE DECLARAR LA COLUMNA DE INICIO DE LA IMAGEN Y LA COLUMNA DE FINAL ASI TAMBIN EL PISO INICIAL Y LA EXTENSION DE PISO FINAL..!!!
+
+ (img:nth-child(numero de la imagen).) para cambiar las propiedades de esta. 
+ ej:img:nth-child(18) {
+    grid-column: 2/4;
+    grid-row: 4/6;
+ }
+
+ --------------------------------------------------------------
+
+FILTER=
+ son una gama de filtros que se le pueden dar una imagen.. estos filtros se pueden combinar en una misma imagen .
+
+ filter: none; es ninguno , se cancelan las propiedades.
+
+ filter: blur (px); genera un desenfoque de la imagen.
+
+ filter: brigthnees (0-1); es la escala de brillo para dar a una iamgen.
+
+ filter: contrast (1.5); es el contraste que se le genera a la imagen.
+
+ filter: box-shadow(10px 10px 5px #000); es generar sombras a la imagen O al contenedor que la tiene.
+
+ filter: drop-shadow (10px 10px 5px #000); funciona en las imagenes sin fondo O tranparentes y sirve para dar sombra solamente a la imagen.
+
+ filter: grayscale (0-1); son las escalas de grises para poner en una imagen. 
+
+ filter: hue-rotate (0-1000deg); esto lo que hace es rotar las gamas de colores E ir cambiandolos (deg es grados).
+
+ filter: invert (%); esto hace que se inviertan los colores en la imagen.
+
+ filter: opacity (0-1); es la transparencia de la imagen.
+
+ filter: saturate (%); es elevar el color a su punto mas fuerte.
+
+ letter-spacing: 10px; esto genera una distancia entre letras, ej:10px.
+
+RESPONSIVE DESING: 
+ es la adaptacion que se le puede dar a la pagina O app, Para dispositivos con pantallas mas chicas, grandes , otros sistemas operativos , telefonos , laptops. ETC.
+ 
+ mobile First/Only : es crear diseños para celulares E ir incrementando a tablets, laptops, pc. Esta es la forma actual en la que se debe trabajar, ademas de ayudar a que sea mas facil agrandar un producto en ves de achicarlo y reacomodarlo.
+ @media Queris:  @media (min-width: 400px;){
+ ..........
+ }
+ @media (min-width: 600px;){
+ ..........
+ }
+ @media (min-width: 800px;){
+ ..........
+ }
+ @media (min-width: 1024px;){
+ ..........
+ }
+ cada uno de estos px se va a convertir en el breack point , es decir ej: cuando la pantalla sea mas chica a 480px , va a suceder todo lo que se encuentra dentro del codigo (representado por puntos). pero en caso de que la pantalla sea mayor a 480px el siguiente media queris de 768px con todo su codigo va a remplazar al anterior, y lo mismo va a pasar con los 1024px. Esto se puede aplicar directamente en el css.
+
+ aun asi gay una mejor manera y mas practica para estos cambios es directamente en el HEAD de html.
+ van hacer estilos enfocados directamente para cada dispositivo ej:
+ <link href="style.css" rel="stylesheet"> (esto para estilos enfocados en mobile).
+
+ <link href="tablet.css" rel="stylesheet" media="screen and (min-width: 768px)"> (eso para estilos enfocados en tablets)
+
+ <link href="laptop.css" rel="stylesheet" media="screen and (min-width: 1024px)"> (eso para estilos enfocados en laptops O dispositivos mas grandes)
+
+ break points: es la dimencion de la pantalla en donde se va agenerar el cambio para la adaptacion de contenedores sin imporar el dispositivo
+
+ PATRONES DE MAQUETACION RESPONSIVE DESING:
+ Mostly Fluid : desde un mobile se ve en forma de columnas, al agrandar la pantalla las cajas se van a empezar a agrandar Y/O cambiar su forma para adaptarse a la nueva pantalla.
+ ej: @media (min-width: 800px) {
+   .contenedor {
+       width: 800px;
+       margin-left: auto;
+       margin-right: auto;
+   }
+   .c1 {
+       width: 60%;
+   }
+   .c2 {
+       width: 40%;
+   }
+   .c3,.c4 {
+       width: 33%;
+   }
+   .c5 {
+       width: 34%;
+   }
+ } de esta forma se le puede dar forma al patron , Pero va a ver un punto donde ya no se amplie mas , gracias al tope de 800px, y ambos margin.
+
+ Layout Shifter: al tener todo en forma de columna en el celular, mediantemente se agrande la pantalla. Los contenedores van a ir cambiando de posicion. hay contenedores dentro de contendores padre, que se van a reposicionar para dar un aspecto mejor (EJ HTML) : <main class="contenedor">
+      <div class="c1"></div>
+      <div class="c4">
+          <div class="c2"></div>
+          <div class="c3"></div>
+      </div>
+      <div class="c5"></div>
+    </main>
+
+    (EJ CSS): @media (min-width: 600px) {
+    .c1 {
+        width: 25%;
+    }
+    .c4 {
+        width: 75%;
+    }
+    .c5 {
+        width: 100%;
+    }
+ }
+
+ @media (min-width: 800px) {
+    .contenedor {
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .c1 {
+        width: 50%;
+        order: 1;
+    }
+    .c4 {
+        width: 100%;
+    }
+    .c5 {
+        width: 50%;
+        order: 2;
+    }
+ }
+ 
+ Column Drop : se muestra en forma de columna en los celulares y a medida que se va agrandando se empiezan a agrandar con prioridad los contenedores de la parte de abajo. Tambien miestras aumentan de tamaño los contenedores se van a ir subiendo en posiciones a la linea primaria, secundaria, tercearia. Dependiendo del contenido.
+ cuando se crea un orden especifico en otro otro patron no hace falta volver a acomodar los siguientes patrones en otras medidas, ya que este patron nuevo va a respectar el anterior. si cambiar en caso de querer darle un orden nuevo.
+
+ RECOMENDACION IMPORTANTE!!: separar siempre los archivos de CSS por cada break point. ej: mobile.css , tablet.css , desktop.css 
+ una pagina en la cual se podria ver las recomendaciones de la pantallas y medidas a asignar es ... MYDEVICE
+
+ RESPONSIVE IMAGENES : es la forma de ajustar las imagenes a los pixeles necesarios de cada dispositivo, sin que se rompa la imagen
+ ej: <main>
+        <picture>
+            <source media="(min-width:1000px)" srcset="mediana.jpg">
+            <source media="(min-width:1500px)" srcset="Grande.jpg">
+            <img src="chica.jpg" alt="Es una imagen de prueba">
+        </picture>
+    </main>
+ se utiliza la etiqueta picture y source con el atributo srcset para poder generar un media querys mas fluido y tener una mejor practica.
+ de esta forma al ser un dispositivo con medidas menor a 1000px se va a mostrar la foto de la etiqueta img. y cuando se habra un dispositivo mayor va a cambiar la imagen a la que sea superior a 1000px. en caso de no querer cambiar de imagen se utiliza la misma imagen pero con diferentes medidas en tamaño. y asi es responsive se haria mas fluido y nitido.
+ 
+ ACCESIBILIDAD: permite hacer un conteido que sea generico , para todo tipos de personas con Y sin discapacidad . incluye titulos a las fotos, contraste de letras y fondos, visualizaciones de imagenes accesibilidad a la hora de escribir y mostrar contenido.
+ un ejemplo en caso de input mas una imagen es:
+ <main>
+       <form action="">
+            <label for="nombre">
+               <span>cual es tu nombre?</span>
+               <input id="nombre"type="text" >
+            </label>
+       
+            <label for="estudio">
+               <span>cuando empezaste a estudiar?</span>
+               <input id="estudio" type="date" >
+            </label>
+             <label for="tiempo">
+               <span>cual es tu nombre?</span>
+               <input id="tiempo" type="time" >
+            </label>
+        </form>
+        <section>
+            <img src="chica.jpg" alt="foto de un paisaje" title="es un paisaje de Bariloche">
+        </section>
+   </main>
+   de esta forma siempre nos aseguramos que el contenido tena una pregunta clara , una opcion facil y un peuqueño detalle sobre que se trata
+
+ACA TERMINA CSS
+
+-----------------------------------------------------
+JAVASCRIPT:genera interactividad 
+
+ACA EMPIEZA JAVASCRIPT
+document.write(nombre de variable) se usa para mostrar el contenido de la variable en pantalla.
+
+CAMEL CASE= es el formato de escritura de javascript. la primer letra de la primer palabra se escribe con minuscula y todas Las Siguientes Van Con Mayusculas
+ej: document.getElementsByTagName('')
+------------------------------------------------------------------
+
+VARIABLES=
+ (se pueden declarar , inicializar , modificar) . Es un espacio que guardamos en memoria, guardando un dato. se le puede aportar el nombre del contenido interno ej: recipiente = papel esto hace que papel sea un valor... 
+
+ TIPOS DE DATOS=
+ STRING= es cadena de texto se puede utilizar con : ( " "...' ') comillas dobles o simples "se escribe dentro de las comillas".
+ (todo lo que va entre comillas es una cadena de texto un srting).
+
+ NUMBER= 19 , 28 , 51 ETC. 
+
+ BOOL/BOOLEANO= 0 . 1 tambien traducido como ( TRUE O FALSE ).
+
+ DATOS ESPECIALES= se utilizan en casos de que la variable no este definida.
+ VAR= numero=15 (de esta forma se declara la variable numero) (no se usa mas)
+ LET= limita el alcance de la variable al bloque en la que se ejecuta
+ CONST= "santy" const lo que hace es difinir el valor santy y este NO puede cambiar, el valor asignado es el valor que queda obligatoriamente.
+
+ COMO DECLARAR , INICIALIZAR , MODICAR? ...
+ let numero; (de esta forma se DECLARA una variable. la cual solo va a tener el alcance al bloque numero).
+
+ numero = 51 (de esta forma se esta INICIALIZANDO le estoy dando un valor a la variable)
+ (tambien se pueden declarar y inicializar en la misma linea. ej: let numero = 51).
+
+ se puede MODIFICAR simplemente poniendo una declaracion con valor nuevo abajo. ej:  let numero = 51
+ number = 28. (de esta forma yo estoy MODIFICANDO el valor haciendo que el programa cambie el valor primario (51) por el valor secundario (28).)
+
+ (datos especiales) = sale el "error" Undefined, significa que el valor a un no fue definido.
+
+ el valor: null se utiliza para no darle ningun valor. no es un error , es un valor NULO que nosotros le ponemos para definir que es una variable vacia. ej: let numero = null .
+
+ el "error" NaN significa es porque estamos intentando hacer una operacion con algo que no es un numero. ej: errores de tipeo 29. 73j ... ETC
+
+ PROMPT= sirve para dar un dato desde el usuario a la pagina ej: let nombre = prompt("caul es tu nombre?")
+                     
+ -------------------------------------------------------------------------
+
+OPERADORES EN JAVASCRIPT
+ operador de Asignacion= asigna un valor al operando de la izquierda basado em el valor del operando de la derecha. (ver IMG operadores de asignacion).
+
+ operadores Aritmeticos= toman valores numericos (ya sean literales o variables) como sus operandos y retornan un valor numerico unico (ver IMG operadores de asignacion).
+
+
+ CONCATENACION= es unir cadenas de texto ej: saludo = "¡Hola amigo!"; pregunta = " como estas crack?"; frase = saludo + pregunta; document.write(frase)... 
+
+ se puede concatenar numero de la siguiente forma ej: numero1 = 58; numero2 = 6; frase = "" + numero1 + numero2; document.write(frase)
+ de esta foma al poner (las comillas) forzo al string al formar todo texto en este caso los numeros. si se sacaran las comillas pasaria que me daria resultado total de 58+6...  las comillas son para hacer el string dinamico.
+ otra forma para hacerlo es con el concat :  numero1.concat(numero2); para usar el concat SI O SI necesito tener un string en un numero.
+
+ otra forma, mas comoda y segura es usar backtiks ej: nombre = "santiago"; frase =  `soy ${nombre} y estoy estudiando`;
+ de esta forma al usar las llamadas acento fuerte. ( `` ). y es un buen metodo ya que nos permite escribir codigo html en su interior . ej:`<div><h1>titulo</h1><h2>sub titulo</h2></div>`. de esta forma si se ejecutaria el codigo.
+ si no se usaran los backtiks y si las comillas el codigo no seria capaz de funcionar, porque lo tomaria como texto y no como codigo.
+
+ ------------------------------------------------------------
+ https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+OPERADORES (intermedio)
+ operadores de comparacion= comparan dos expresiones y devuelven un valor BOOLEANO (true o false) que representa la relacion de sus valores funciona con textos Y numeros (ver IMG).
+
+ operadores logicos= nos devuelven un resultado a partir de que se cumplen (o no) una condicion, su resultado es BOOLEANO, y sus operadores son valores logicos o asimilables a ellos. (ver IMG)
+
+ AND (&&) logico= ej:
+ num1 = 12; num2 = 24; afirmacion1 = num1 > num2; afirmacion2 = num1 != num2; = FALSE document.write(afirmacion1 && afirmacion2)
+ lo que hace and, es verificar los datos dados. si le decimos que 12 es < (menor) a 24. el resultado va ser verdadero, ahora si le decimos que 12 es != (es distinto/otro numero) a 24 el resultado es verdadero. Ahora si le decimos que 12 es > (mayor) a 24 el resultado va ser falso  Es decir si ambas condiciones se cumplen el resultado es verdadero. SI UNA DE LAS CONDICIONES NO SE CUMPLE EL RESULTADO TOTAL! VA A SER FALSO...
+
+ OR (||) logico= ej:
+ num1 = 12; num2 = 24; afirmacion1 = num1 > num2; afirmacion2 = num1 != num2; = TRUE
+ lo que hace or es decir que la condicion 12 es > (mayor) a 24 (es falso) pero si 12 es != (distinto/ otro numero) a 24 (es verdadero) por lo tanto, si una de las condiciones es verdadera , EL RESULTADO FINAL VA A SER VERDADERO... funciona de manera contraria a and.
+
+ NOT (!) logico= ej:
+ num1 > num2; afirmacion1 = num1 > num2 (este resultado es falso), pero al poner document.write(!afirmacion1) me pasa el resultado a verdadero. se pone el signo ! delante de la (afirmacion/resultado) y lo invierte
+ lo que hace not, es generar un resultado contrario , es decir si el resultado es verdadero lo va a pasar a falso, si el resultado es falso lo pasa a verdadero. 
+
+ ejemplos de practica:
+ num1 = 12;
+ num2 = 24;
+ num3 = 25;
+ num4 = 92;
+ num5 = 91;
+
+ op = (num5 > num2 && num4 < num3) || (!(num1 === num2) || num3 != num3)
+
+ document.write(op)
+--------------------------------------------------------------------------
+
+CONDICIONALES= es una sentencia que permite validar algo. 
+ if (es, SI la condcion se cumple)
+ else if (es, en caso de que NO se cumpla) 
+ ej: 
+ un bloque :nombre/condicion= "santiago"
+ if (nombre == "santiago") {
+    alert("tu nombre es  " + nombre);
+ }
+ si la condicionn es la correcta condicion "santiago" se ejecuta el alert (tu nombre es santiago)
+
+ else if (nombre == "silva") {
+    alert("tu nombre es " + nombre);
+ }
+ se ejecuta cuando la condicion santiago no se cumple , en ese caso la sub condicion es "silva" , entoces se ejecuta el alert (tu nombre es silva). (se pueden poner else if infinitos)
+
+ else {
+    alert("tu nombre es otro");
+ }
+
+ esta sirve en caso de que ninguna de las otras condiciones se cumplan, en ese caso el alert(tu nombre es otro).
+ en caso de que la primer condicion se ejecuta el resto no lo hara. Se puede agregar mas de una condicion en cada bloque , ej: (nombre == "santiago" && apellido = "silva") estas son ambas condiciones a cumplir.
+
+--------------------------------------------------------------------------------
+
+ARRAYS=
+ es un objeto , que puede guardar muchos tipos de datos y distintos contedio. la mejor forma de usarlo es con [] (corchetes) es importante siempre poner los elementos con "" y separarlos por comas. [4] se utiliza en el document.write para ver la posicion (4) de los elementos en pantalla
+
+ arrays asosiacion: ej:
+ let pc2 = {
+    nombre:"santyPC",
+    procesador: "intel",            {ARRAYS}
+    ram: "16GB",
+    espacio: "1TB"
+ }
+
+ let nombre = pc2["nombre"];
+ let procesador = pc2 ["procesador"];
+ let ram = pc2 ["ram"];
+ let espacio = pc2 ["espacio"];
+                                                      {ARRAYS ASOCIATIVO}
+ frase = `el nombre de mi pc es: <b>${nombre}</b> <br>
+          el procesadores: <b>${procesador}</b> <br>          
+          la memoria ram es: <b>${ram}</b> <br>
+          el espacio es: <b>${espacio}</b> <br>`;
+
+          document.write(frase);
+    --------------------------------------------------------------
+
+BUCLES E INTERACCION= 
+ los bucles son acontecimientos que se generan una y otra vez sin parar.
+ while: lo que hace es generar un bucle infinito.
+
+ break: finaliza el bucle hasta donde lo necesitemos.
+
+ continue: se utiliza para saltar la interaccion, es decir una palabra , numero etc. y continuar con la siguiente.
+
+ for in:muestra el indice, la posicion en que se encuentran los elementos.
+
+ for of: nos muestra el valor de esos elementos. ej:
+
+ let animales = ["gato","perro","jirafa"];
+ for (animal in animales){ 
+          document.write(animales[animal] + "<br>");
+ }
+ document.write("<br>")
+ for (animal of animales){ 
+          document.write(animal + "<br>");
+ }
+
+ for (var i = 0; i >= 14; i++) {
+  Things[i]
+ }
+ i = 0 es la iniciacion de la variable se asigna el valor 0 a i .
+
+ i <= 14 indica la cantidad de vueltas del bucle, se repite mientras pregunta si es menor O igual a 14.
+
+ i ++ / i -- indica si el bucle tiene incremento O descrecimiento.
+
+  en caso de que 0 sea menor O igual a 14 , va a incrementar su valor, de esta forma el bucle genera que en la siguiente vuelta que i valga 1 , en la siguiente i valga 2, y continua hasta que sea igual a 14 ej:
+ (var i = 0; i ¿>= 14?; i++) ,
+ (var i = 1; i ¿>= 14?; i++) ,
+ (var i = 2; i ¿>= 14?; i++) ,
+ esto es lo que genera el bucle, aumenta el valor de i con cada vuelta de pregunta hasta llegar a la cantidad de vueltas asignada del bucle. 
+-----------------------------------------------------------------------------------------------------
+FUNCIONES= 
+ una funcion es una porcion de codigo, que se usa como "titulo" para guardar todo unas lineas de codigo
+ para cuando lo tengamos que volver a utilizar, no tengamos la nesecidad de volver a escribir todo ej:
+ function saludar() {
+    respuesta = prompt("¡hola! como te fue?");
+    if (respuesta == "bien") {
+        alert("me alegro")
+    } else {
+        alert("una pena")
+    }
+ }
+ saludar()
+ saludar()
+ saludar. es el titulo de todo el codigo ya hecho y simplemente con escribir el "titulo saludar", ya estamos insertando todo el codigo de vuelta.
+ return= cumple una misma funcion que break.
+ funciones flecha= ej: const saludar = (nombre)=>{
+    let frase = `¡hola ${nombre}! ¿como estas?`;
+    document.write(frase).
+    saludar("jaimito")
+    se les llama asi por su forma ( ()=> ).
+ y tiene beneficios como,  si solamente se usa un parametro no hace utilizar parentesis:  saludar = nombre=>{.
+ ¡¡BUSCAR MAS FUNCIONES FLECHAS!!
+ (no pueden ser usadas para crear metodos en las clases.)
+
+-----------------------------------------------------------------------------------------------------
+PROGRAMACION ORIENTADA A OBJETOS=
+ (NO SE PUEDE TENER UN OBJETO CON EL MISMO NOMBRE QUE LA CLASE) (los objetos se difinen con const),
+ CLASE= es como crear una fabrica de objetos, es decir, creame tal objeto, que pueda hacer estas cosas y que tenga estas cualidades. si queremos que la fabrica haga otras cosas se crea otra CLASE.
+
+ OBJETOS=es el resultado , la creacion , el diseño de la clase. (this.color) es el obejto a crear
+
+ ATRIBUTO=las particularidades , las propiedades, caracterizticas del objeto.
+
+ METODO= son las cosas que puede hacer nuestro objeto.
+
+ CONSTRUCTOR= (funcion obligatoria), es una funcion que va a costruir las propiedades de los objetos.
+
+ INSTANCIA=
+
+ ej: class animal {
+    constructor(especie,edad,color) {
+    this.especie = especie;
+    this.edad = edad;
+    this.color = color;
+    this.info = `soy ${this.especie}, tengo ${this.edad} años, y soy de color ${this.color}`;
+  }   
+    verInfo(){
+        document.write(this.info + "<br>")
+    }
+ }
+ const perro = new animal("perro",5,"marron");
+ const gato = new animal("gato",3,"blanco");
+ const pajaro = new animal("pajaro",199,"azul");
+ perro.verInfo()
+ gato.verInfo()
+ pajaro.verInfo().
+
+CARACTERISTICAS DE LA PROGRAMACION ORIENTADA A OBJETOS=
+ ABSTRACCION= reducir un ebjeto, hacerlo lo menos complejo posible; ej: un metodo que se un perro. raza,color,tamaño,un metodo que ladre, un metodo que camine. NADA MAS!! .
+
+ MODULARIDAD= es la capacidad de resolver un problema grande, separandolo por partes.
+
+ ENCAPSULAMIENTO= es encapsular los datos para que la informacion no salga de ahi y no se pueda acceder de forma sencilla.
+
+ POLIMORFISMO= se trata de ver como un objeto se comporta de distinta manera ante un metodo ej: en las formas de caminar de perro, un gato y un pajaro. no van a caminar de la misma forma.
+--------------------------------------------------------------------------
+METODOS ESTATICOS=
+  un metodo estatico, no necesita que la clase sea definida para poder ser creado, se puede ejecutar antes de crear el obejto y instanciarlo. Para utilizarlo se escribe (static) ej: static ladrar() { alert("¡WAW!"), de esta forma estamos utilizando la clase antes de crear al objeto. Perro.ladrar()
+
+ HERENCIA= crear una clase y va a tomar todo lo que puede hacer la otra clase y las propiedades. Y ademas se le puede agregar cosas nuevas. para utilizarlo en codigo se excribe ( extends ). ej:
+ class Perro extends Animal  {
+    constructor(especie,edad,color,raza){
+        super(especie,edad,color);
+        this.raza = raza;   }.
+
+ METODOS ACCESORES (GETTERS, SETTERS)= ambos funcionan como propiedades
+ getters= son para obtener un valor, para usarlo se escribe (get). ej: get getRaza(){
+        return this.raza;
+
+ setters= son para modificarlos O definirlo. se esta modificando el valor de una propiedad de la clase. es un metodo que se combierte a propiedad, para usarlo se escribe(set). ej: set modificarRaza(newname){
+        this.raza = newname;
+ perro.modificarRaza = "Pedro"
+ document.write(perro.raza)
+
+ (En la mayoria de los lenguajes, los getters y setters se utilizan para acceder a propiedades privadas o en caso de javascript, a datos encapsulados).
+---------------------------------------------------------------------------------------------------
+
+METODOS DE CADENAS=   estas cadenas buscan otras cadenas :
+
+ concat() : junta dos O mas cadenas y retorna una. ej:
+ let cadena = "cadena de prueba";
+ let cadena2 = "cadena 2";
+ resultado = cadena.concat(" cadena 2"); 
+ document.write(resultado);          (cadena de prueba cadena2).
+
+ startsWith() (con W mayuscula) : si una cadena termina con los caracteres de otra cadena, devuelve TRUE, si no devuelve FLASE. ej: 
+ let cadena = "cadena de prueba";
+ let cadena2 = "cadena";
+ resultado = cadena.startsWith("cadena ");
+ document.write(resultado);  . (revisar bien la cadena 1, si la cadena 2 es igual da true, si cambia con "espacio, letras, signos ETC" devuelve FALSE).
+
+ endWith() (con W mayuscula) : verifica que termine como le decimos en la cdena 1 ej:. "a , ba, cadena" en caso de que termine igual da TRUE en caso de que no, da FALSE.
+
+ includes() : si una cadena puede encontrarse dentro de otra cadena, da TRUE, si no, da FALSE.  (busca cadenas) es decir analiza la primer cadena si encuentra una, la da como TRUE. ej: 
+ let cadena = "cadena de prueba";
+ let cadena2 = "de p";
+ resultado = cadena.includes(cadena2); => se pone a buscar la cadena 
+ document.write(resultado);  (la cadena "de p", es verdadera´porque aparece en la primera).
+
+ indexOf() (con O mayuscula) : funciona exactamente como la anterior , solamente que esta no devuelve TRUE O FLASE devuelve otro tipo de dato, el dato en numero de donde comienza la palabra a buscar. en caso de que la palabra a buscar no se encuentre se va a dar como resultado un -1.   ej: 
+ let cadena = "santy el mas genio de todos";
+ let cadena2 = "";
+ resultado = cadena.indexOf("genio");
+ document.write(resultado);   ( va a decir 13 porque es el numero del caracter donde comienza la palabra genio).
+
+ lastIndexOf() (con I , O ambas mayusculas) : Es lo mismo. Pero, devuelve el ultimo indice del primer caracter de la cadena (es decir de Santy devuelve Y), si no existe, devuelve -1 ej:
+ let cadena = "santy el mas genio genio genio genio de todos";
+ let cadena2 = "";
+ resultado = cadena.lastIndexOf("genio");
+ document.write(resultado);  . (esto va a devolver el inicio del ultimo genio de la cadena).
+ estas cadenas buscan otras cadenas
+                ----------------------------------
+
+estas cadenas modifica la cadena :
+ padStart() (con S mayuscula) : Rellena Cadena Al Principio Con Los Caracteres Deseados ej:
+ let cadena = "abc";
+ let cadena2 = "";
+ resultado = cadena.padStart(6,"a");  
+ document.write(resultado);  (resultado en pantalla ["aaaabc"]. a la izquierda cantidad de caracteres, a la derecha lo que se agrega a la cadena).
+
+ padEnd() (con E mayuscula) : funciona de la misma manera solo que lo que se agrega al principio lo pone al final ["abcaaaa"].
+
+ repeat() : devuelve la misma cadena pero repetida las veces que queremos ej :
+ let cadena = "abc";
+ let cadena2 = "";
+ resultado = cadena.repeat(10);
+ document.write(resultado);  ( esto va hacer que "abc" se repita cada letra 10 veces).
+ estas cadenas modifica y rellena la cadena
+                -------------------------------------------
+
+estos metodos transforman a la cadena :
+ propiedad(.length): muestra cuantos caracteres tiene una cadena
+
+ split() : divide la cadena como le pidamos ej : 
+ let cadena = "hola,como,estas";
+ resultado = cadena.split(",");
+ document.write(resultado);     
+ de esta forma se crea un arrays en pantalla.
+ Otra forma puede ser ej :
+ let cadena = "hola como estas";
+ resultado = cadena.split("estas");
+ document.write(resultado);  
+ de esta forma cada vez que se encuentre la palabra "como" nos la a "borrar" y va a dejar ver solamente hola y estas. Y en el espacio de como lo rellena con una coma.
+
+ substring() : lo que hace es crean un nuevo string ej:
+ let cadena = "ABCDEFG";
+ resultado = cadena.substring(2,5);
+ document.write(resultado);  . hace que el string comience desde el caracter 2 y termine en el carecter 5.
+
+ toLowerCase() (con L , C ambas mayusculas) : convierte una cadena a minuscula.
+
+ toUpperCase() (con U , S ambas en mayuscula) : convierte una cadena a mayuscula.
+
+ toString() (con S mayuscula) : se puede usar en numeros y palabras para formar strings.
+
+ trim() : lo que hace es eliminar los espacios en blanco al principio y al final de una cadena. ej :
+ let cadena = "   santy   ";
+ resultado = cadena.trim();
+ document.write(resultado); (elimina ambos espacios)
+
+ trimEnd() (con E mayuscula) : elimina los espacios en blanco de el final de una cadena de texto. ej :
+ let cadena = "   santy";
+
+ trimStart() (con S mayuscula) : elimina los espacios en blanco del principo de la cadena texto. ej: 
+ let cadena = "santy   ";
+
+ estos metodos transforman a la cadena 
+        ------------------------------------------------
+
+METODOS DE ARRAYS =  TRANSFORMADORES= metodos que transforman el arrays.
+
+ pop() : elimina el ultimo elemento de una arrays, y luego muestra en pantalla cual elimino ej:
+ let nombres = ["pedro", "maria", "juan"];
+ resultado = nombres.pop()
+ document.write(resultado);  (en este caso en pantalla muestra juan. ya que es el ultimo elemento y el cual elimino del arrays).
+
+ shift() : hace lo mismo a pop(). solamente que en ves de eliminar el ultimo, shift elimina el primero.
+
+ push() :agrega un elemento al array al final de la lista. ej: 
+ let nombres = ["pedro", "maria", "juan"];
+ document.write(nombres + "<br>")
+ let resultado = nombres.push("carlos")
+ document.write(resultado);  
+ de esta forma lo que hace es darnos la cantidad de elementos O la posicion del nuevo elemento que se agrego. ambas son validas ej: (pedro,maria,juan 4).
+
+ reverse() : invierte el orden de los elementos de un array.
+
+ unshift() : agrega uno O mas elementos al inicio del array y devuelve la nueva longitud del array. ej : let numeros = [1,2,3,4,5];
+ document.write(numeros + "<br>")
+ let resultado = numeros.unshift(0)
+ document.write(numeros); . (de esta forma en pantalla aparece los numeros originales, y por debajo 0,mas los numeros originales . en unshift se puede agregar cualquier valor que igual lo va a mostrar).
+
+ sort() : ordena los elementos de un arreglo(array) localmente y devuelve el arreglo ordenado. esto se usa para que ordene numeros de forma menor a mayor Y las palabras las ordena en orden alfabetico (tambien llamdo orden lexicografico)
+
+ splice() : cambia elementos de un array eliminando elementos existentes y/o agregando nuevos elementos. ej: (.splice(1,3)) el primer caracter (1) es la posicion de donde comienza y el segundo (3), son los caracteres que elimina. ej: 
+ let numeros = [0,1,2,3,4,5];
+ document.write(numeros + "<br>")
+ let resultado = numeros.splice(1,3)
+ document.write(numeros);  de esta forma en pantalla queda (0,4,5).
+
+ Y AHORA si yo quiero agregar elementos se pone (.splice(1,3,"nombres O numeros que se agreguen") estos elementos agregados van a estar en la posicion de los elementos eliminados). ej :numeros.splice(1,3,"hola") de esta forma en pantalla queda (0,hola,4,5).
+
+ EN CASO de no querer eliminar ningun elemento se pone numeros.splice(1,0) , y si quiero agregar elementos, basta con agregar elementos al splice y atraves de la posicion (1) se designa el orden y la posicion que van a tener los elementos agregados ej : (1,0,"hola") de esta forma designo que el elemento "hola" vaya a la posicion 1 del array.
+ en caso de querer posicionarlo al final del array se pone (-1,0,"hola")
+ (la forma de referirse al final de un array es con -1).
+
+METODOS ACCESORES =
+
+ join() : une todos los elementos de una matriz (u objeto similar) en una cadena y la devuelve, una forma de verlo es que crea una cadena de texto nueva. ej :
+ let numeros = [0,1,2,3,4,5];
+ document.write(numeros + "<br>")
+ let resultado = numeros.join("<br>numero: ") de esta forma en pantalla aparece numero: 1 abajo numero: 2 ETC.. en caso de simplemente agregar "signos" se pone: numeros.join(" / ")
+ de esta forma aparece 0/1/2/3 etc ... y asi con cada signo que designemos
+ document.write("numero: " + resultado);  .
+
+ slice() : devuelve una parte del array dentro de un nuevo array empezando por el inicio hasta fin (fin no incluido). es una forma similar a substring. solamente que en ves de caracteres aca se manejan elementos. y es de la misma forma de uso a splice.
+
+DE REPETICION = trata de iteraciones
+
+ filter() : es como un bucle. ej : let numeros = ["manzana", "pera", "santy", "mandarina","bariloche"];
+ numeros.filter(letnumero => document.write(numeros+"<br>" )) de esta forma en pantalla se va a mostrar los arrays una y otra ves . se va a generar un array por cada elemento. en este caso van ser 5 filas con cada elemento.
+ tambien permite crear un nuevo array, con la ayuda de longth. y nos saca los elementos con menos letra de las asignadas ej:
+ let numeros = [" manzana", " pera", " santy", " mandarina"," bariloche" ," qeso"];
+ resultado = numeros.filter(numero => numero.length > 5)
+ document.write(resultado)
+
+ forEach() (con E mayuscula) : 
+
+---------------------------------------------------------------------------------
+
+OBJETO MATH - BASICO = METODOS=
+ sqrt() : devuelve la raiz positiva de un numero.
+
+ cbrt() : devuelve la raiz cubica de un numero.
+
+ max () : devuelve el mayor de cero O mas numeros. (funciona unicamente con numeros).. ej:Math.max(70,85,0,462,64); de esta forma me muestra en pantalla 462.
+
+ min() : es lo opuesto a max , devuelve el numero mas chico ej: Math.min(70,85,0,462,64);..
+ de esta forma me muestra en pantalla el numero 0.
+
+ random() : devuelve un numero pseudo-aleatorioentre 0 y 1. (0 con numeros decimales hasta 1)
+
+ round() : devuelve el valor de un numero redondeado al numero entero mas cercano. se puede usar a la par de random para mostrar numeros enteros dentro de la cantidad asignada ej: 
+ let numero = Math.random()*100;
+ numero = Math.round(numero);
+ document.write(numero)
+ con random genero un numero aleatorio entre 0 y 100. si le agrego round, genero que solo se vean numeros enteros entre estos dos, sin tener decimales.
+
+ fround() = devuelve la representacion flotante de precision simple mas cercana de un numero.
+
+ floor() :devuelve el mayor entero, menor que O igual a un numero. ej:
+ numero = Math.floor(4.8); funciona de los numeros con , simpre va a devolver el menor numero entero mas cercano. en caso de tener 4,8 el resultado de pantalla es 4
+
+ trunc() : elimina los decimales y muestra numeros enteros.
+
+PROPIEDADES MATH=
+ PI : ratio de la circunsferencia de un circulo respecto a su diametro, aproximadamente 3.141159
+ SQRT1_2 : raiz cuadrada de 1/2; equivalentemente, 1 sobre raiz
+ SQRT2 : raiz cuadrada de 2.
+ E: constante de Euler, la base de los logaritmos naturales
+ LN2 : logaritmo natural de 2     (0.693)
+ LN10 : logaritmo natural de 10     (2.303)
+ LOG2E : logaritmo de E con base 2     (1.443)
+ LOG10E : logaritmo de E con base 10     (0.434)
+
+------------------------------------------------------------------------------
+
+CONSOLE = clic derecho - inspeccionar - console
+ Funciones de registro=
+ (console.funcion para utilizarlo)
+
+ assert() : aparece un mensaje de error en la consola si la afirmacion es falsa. en caso de ser correcta no aparecera nada.
+
+ clear() : limpia la consola, esto en caso de que salten muchas cosas innecesarias . se puede escribir en la misma consola y se limpia ej : console.clear().
+
+ error() : muestra un mensaje de error mas cualquier frase que designemos ej: console.error("che capo, ¿que hiciste?").
+
+ info() : emite un mensaje informativo a la consola web (funciona igual que error) .
+
+ log() : muestra un mensaje en la consola web (o el interprete de javaScript).
+
+ table() : esta funcion toma un argumento obligatorio : data, que debe ser un array o un objeto, y un parametro adicional: columns, y nos muestra una tabla en consola.
+ 
+ warn() : imprime un mensaje de advertencia en la consola web.
+
+ FUNCIONES DE CONTEO = 
+
+ count() : registra el numero de veces que se llama a count(). esta funcion toma como argumento opcional una etiqueta.
+
+ countReset() termina el registro de veces. y muestra la cantidad total que se uso.
+
+ FUNCIONES DE AGRUPACION = 
+
+ group() : crea un grupo en linea en el registro de la consola web.
+
+ groupEnd() : remueve un grupo en linea en el registro de la consola web.
+
+ groupCollapsed() : crea un grupo en linea pero contraido, el usuario debe expandirlo para verlo.
+
+ FUNCIONES DE TEMPORIZACION =
+
+ time() : inicia un temporizador. en la consola web
+
+ timeEnde() : registra el valor actual de un temporizador. en la consola web
+
+ timeLog() : detiene un temporizador.
+
+ (  console.log("%chola","color:red")  ). al pones %c nos permite poder darle estilos a lo que se ve en consola, utilizando los metodos de css. 
+ ej:
+ console.log("%cOJO CON LO QUE HACES","color:red;background:black;border: 3px solid red; margin: 20px; padding: 20px")
+ de esta forma en la consola web se pone un cartel negro, con letras y bordes rojos, con un tamaño de 20px.
+ 
+
+-------------------------------------------------------------------------
+
+DOM = 
+ nodo = un modo en el DOM es cualquier etiqueta del cuerpo, como parrafo, el mismo body o incluso las etiquetas de una lista. (los nodos no siempre son etiquetas).
+ TIPOS DE NODOS:
+ -Document: el nodo document es el nodo raiz, al partir del cual derivan el resto de nodos. 
+ ej: cualquier etiqueta del cuerpo.
+
+ -Element: nodos definidos por etiquetas html.
+ ej: una etiqueta <p> , <h1> , <div> todo tipo de etiquetas.
+
+ -Text: el texto dentro de un element se considera un nuevo nodo hijo de tipo text.
+ ej: <h1>titulo</h1> el titulo dentro de los elements
+
+ -Attribute: los atributos de las etiquetas definen nodos (en Javascript no lo veremos como nodos, si no como informacion asociada al nodo de tipo element).
+ ej:  <script src="aprendiendo.JS"></script> seria el atributo src y cualquier tipo de atributos dentro de etiquetas.
+
+ -comentarios y otros: elementos con las declaraciones doctype en cabecera de los documentos HTML generan nodos.
+ ej: <!DOCTYPE html> asi tambien los comentarios como <!----> (es la forma para hacer un comentario en el codigo).
+ 
+DOCUMENT= METODOS DE SELECCION DE ELEMENTOS
+ 
+ getElementById() (con E,B,I . mayusculas) : seleciona un elemento por ID.
+ ej: poniendo en codigo HTML <p id="contenido">texto de prueba<p>. el ID seria "contenido". Por lo tannto para llamarlo en JS se escribe ej: <p id="contenido">texto de prueba<p>. y en pantalla nos mostraria (texto de prueba). porque es el contenido del id.
+
+ getElementByTagName() (con E,B,T,N. mayusculas) : seleciona todos los elementos que coincidan con el nombre de la etiqueta especifica.
+ ej: document.getElementByTagName("p"). De esta forma nos va a selecionar todos los elemetos/etiquetas puesta, en este caso <p id="contenido">texto de prueba<p>, si tuviera mas elementos <p> tambien los agregaria y mostraria todos juntos cada uno con su respectivo contenido, en caso de tener las mismas etiquetas con distintos id se usa document.write(nombre del id[0]). de esta forma se seleciona el primer parrafo con diferente ID, para selecionar el otro simplemente se cambia por [1].
+
+ querySelector() (con S mayuscula) : devuelve el primer elemento que coincida con el grupo especificado de selectores aca se utilizan los selectores de CSS.
+ ej:
+
+ querySelectorAll() (con S,A. mayusculas) : devuelve todos los elementos que coincidan con el grupo especificado de selectores. en caso de tener muchos elementos <p> nos devuelven y muestra todos.
+
+ METODOS PARA DEFINIR, OBTENER Y ELIMINAR ATRIBUTOS=
+
+ setAttribute() (con A mayuscula) : modifica el valor de un atributo.
+ ej: <input type="range" class="rangoEtario"> se genera un rango dentro del dom, al utilizar... const rangoEtario = document.querySelector(".rangoEtario"); 
+ rangoEtario.setAttribute("type","color") de esta forma al utilizar el metodo set, se puede modificar el atributo TYPE por cualquiera como color,number,password ETC.
+ y de esta forma modificar el valor y la utilidad
+ el primer parametro es que se va a modificar "type" el segundo parametro es el remplazante "color".
+
+ getAttribute() (con A mayuscula) : obtiene el valor del atributo.
+
+ removeAttribute() (con A mayuscula) : remueve el valor de un atributo.
+
+ ATRIBUTOS GLOBALES = son los atributos que contienen todos los elementos en comun ( todos los elementos HTML)
+ 
+ class : lista de clases del elemento separados por espacio.
+
+ contentEditable : indica si el elemento puede ser modificable por el ususario.  (acepta valores booleanos).
+
+ dir : indica la direccionalidad del texto (acepta valor como "ltr" (de izquierda a derecha ) y "rtl" (de derecha a izquierda) ).
+
+ hidden : indica si el elemento aun es, O ya no es, relevante. hace que el elemento asignado se oculte.
+
+ id : define un identificador unico.
+
+ style : contiene declaraciones de estilo CSS para ser aplicadas al elemento.
+
+ tabindex : indica si el elemento puede obtener un focus de input O no. se usa con numeros ej: titulo.setAttribute("tabindex","5")
+
+ title : contiene un texto con informacion relacionada al elemento que pertenece.
+
+ATRIBUTOS DE LOS IMPUTS =
+ className (con N mayuscula) : input.className . muestra lo que hay dentro de class
+
+ value : value="321" (esto en html)   input.value (esto en javascript)
+
+ type : input.type= "text" entre otras cosas
+
+ accept : type="file" (esto en html) input.accept ="imagen/png" (en JS) entre otras cosas
+
+ form : <form id="formulario">
+        <input type="text" name="">     
+        <input type="submit" name="">
+ </form>
+         <input type="submit" form="formulario">
+ de esta forma a la hora de realizar un formulario se puede agregar otro boton por fuera y si se vinvula al form SIEMPRE EN CUANDO LLEVE ID se pyede colocar el boton de enviar y ser utilizado sin problema
+
+ minlength : minlength="43" (esto en html) o input.minLength = 43 (esto en JS)
+
+ placeholder : input.placeholder = "que onda"  (esto en JS)
+
+ required : input.riquired = " ";
+
+ style : titulo.style.color = "red"
+ titulo.style.padding = "30px"
+ titulo.style.backgroundColor ="blue"
+
+CLASES = classList y metodos de classList =
+
+ add() : añade una clase.
+ ej: const titulo = document.querySelector(".titulo") titulo.classList.add("grande"). de esta forma se añade la clase grande al programa
+
+ remove() : remueve una clase.
+ ej: const titulo = document.querySelector(".titulo") titulo.classList.remove("grande") remueve las clases puestas en html en este caso grande
+
+ item() : devuelve la clase del indice especifico.
+ ej: const titulo = document.querySelector(".titulo");
+ let valor = titulo.classList.item(2);
+ document.write(valor) , de esta forma se muestra en pantalla las clases añadidas por orden de posicion (las clases añadidas se hacen en html)
+
+ contains() : verifica si ese elemento posee O no, la clase especifica.
+ ej: const titulo = document.querySelector(".titulo");
+ let valor = titulo.classList.contains("rojo");
+ ment.write(valor) , de esta forma si la clase existe dentro del elemento, en caso de existir devuelve true, en caso que no devuelve false.
+
+ replace() : reemplaza una clase por otra.
+ ej: const titulo = document.querySelector(".titulo");
+ let valor = titulo.classList.replace("grande","chico")
+ document.write(valor). de esta forma si esta la clase grande escrita en html, se puede cambiar por chico en la pagina. y nos devuelve true O false
+
+ toggle() : si no tiene la clase especifica, la agrega, si la tiene, la elimina.
+ ej: titulo.classList.toggle("grande"), de esta forma se agrega O elimina la clase grande, si la clase esta en html, la elimina, si la clase no esta escrita, la agrega al elemento de consola 
+
+OBTENCION , MODIFICACION DE ELEMENTOS EN HTML =
+
+ textContent : devuelve el texto de cualquier nodo, no devuelve el contenido html, MUESTRA TODO EL TEXTO
+ ej : const titulo = document.querySelector(".titulo");
+ let resultado =titulo.textContent
+ document.write(resultado) 
+
+ innerHTML : devuelve el contenido html de un elemento, MUESTRA TODO EL CONTENIDO HTML
+ ej: 
+ 
+ outerHTML : muestra todo el codido y la etiqueta que lo contiene, todo el contenido incluyendo las propias etiquetas
+
+CREACION DE ELEMENTOS =
+ createElement() : solo reconoce elementos cuando son escritos TODO EN MAYUSCULA, 
+ ej: const contenedor = document.querySelector(".contenedor");
+ const item = document.createElement("LI");
+ document.write(item) de esta forma se crea un elemento llamado LI en consola
+
+ createTextNode() : crea un texto dentro del item,
+ ej : const textoDelItem = document.createTextNode("lista");
+ console.log(textoDelItem) de esta forma se pone texto dentro del item LI
+
+ appendChild() : utilizando este metodo se puede colocar un objeto dentro de otro, 
+ ej : item.appendChild(textoDelItem);
+ console.log(item) esta es una de las formas de agregarle objetotexto a otro.
+
+ createDocumentFragment() : 
+ ej: const contenedor = document.querySelector(".contenedor");
+ const fragmento = document.createDocumentFragment();
+ for (var i = 0; i < 20; i++) {
+    const item = document.createElement("LI");
+    item.innerHTML = "este es un item de la lista";
+    fragmento.appendChild(item);
+ }
+ contenedor.appendChild(fragmento);
+  de esta forma se ahorra recursos en caso de querer poner un nodo dentro de otro nodo, y para no realizar un bucle, ya que es una constante y no se puede mas de una ves , se coloca createDocumentFragment() mas el bucle para fragmentar el bucle dentro de la constante fragmento.
+
+OBTENCION Y MODIFICACION DE CHILDS (hijos) =
+ ej :<div class="contenedor">
+            <h2>un h2 comun</h2>
+            <h4>un h4 comun</h4>
+            <p>simple parrafo</p>
+    </div>
+
+ firstChild() = muestra el primer elemento nodo hijo en encontrar, es el que este pegado (sin espacios) a la clase.
+ ej : const contenedor = document.querySelector(".contenedor");
+ const primerHijo = contenedor.firstChild;
+ console.log(primerHijo). de esta forma en consola muestra el h2 y su contenido.
+
+ lastChild() = es el ultimo elemento nodo hijo pegado (sin espacios) al div final .
+ ej : const contenedor = document.querySelector(".contenedor");
+ const primerHijo = contenedor.lastChild;
+ console.log(primerHijo). de esta forma en consola muestra p y su contenido.
+
+ firstElementChild() = funciona de la misma manera a firstchild. solamente que con este estamos seleccionando el elemento directamente. por lo tanto SI podemos dejar espacios , ya que va a selecionar h2 y todo su contenido.
+
+ lastElementChild() = funciona de la misma manera que firstelementchild. solamente que lo hace con el ultimo elemento.
+
+ childNodes = devuelve todos los nodos hijos: h2, h4, p
+ ej: const contenedor = document.querySelector(".contenedor");
+ const hijo = contenedor.childNodes;
+ console.log(hijo). de esta forma en consola nos muestra la lista de los nodos y cada uno con su posicion. si queremos selecionar uno es especifico basta con poner (hijos[numero de orden]).
+
+ children = devuele solamente las etiquetas html en consola, h2, h4,
+  p.
+
+METODOS DE CHILDS (hijos) =
+
+  replaceChild() : sirve para remplazar un nodo hijo por otro. 
+  ej : const contenedor = document.querySelector(".contenedor");
+ const parrafo = document.createElement("P").innerHTML = "parrafo";
+ const h2_nuevo = document.createElement("H2");
+ h2_nuevo.innerHTML = "titulo"
+ h2_antiguo = document.querySelector(".h2");
+ contenedor.replaceChild(h2_nuevo,h2_antiguo)
+
+
+  removeChild() : sirve para remover un elemento.
+  ej: const contenedor = document.querySelector(".contenedor");
+ const parrafo = document.createElement("P").innerHTML = "parrafo";
+ const h2_nuevo = document.createElement("H2");
+ h2_nuevo.innerHTML = "titulooo"
+ h2_antiguo = document.querySelector(".h2");
+ contenedor.removeChild(h2_antiguo). de esta forma estamos removiendo el elemento hijo de un padre. 
+
+  hasChildNodes() : sirve para verificar si tiene un elemento hijo O no.
+  ej: const contenedor = document.querySelector(".contenedor");
+ const parrafo = document.createElement("P").innerHTML = "parrafo";
+ const h2_nuevo = document.createElement("H2");
+ h2_nuevo.innerHTML = "titulooo"
+ const h2_antiguo = document.querySelector(".h2");
+ let respuesta = h2_antiguo.hasChildNodes();
+ if (respuesta) {
+     document.write("el elemento tiene hijos")
+ } else {
+    document.write("el elemento NO tiene hijos")
+ }. de esta forma se puede corroborar si el elemento tiene hijo (texto en html).
+
+PROPIEDADES DE PARENT (padre) =
+ parentElement : seleciona el padre elemento de un elemento. 
+ ej : 
+ const contenedor = document.querySelector(".contenedor");
+ const parrafo = document.createElement("P").innerHTML = "parrafo";
+ const h2_nuevo = document.createElement("H2");
+ h2_nuevo.innerHTML = "no titulo"
+ const h2_antiguo = document.querySelector(".h2");
+ console.log(h2_antiguo.parentElement);
+ de esta forma se esta selecionando el elemento padre dle h2 antiguo, el cual seria el div con la clase contenedora.
+
+ parentNode : seleciona el padre de un elemento.. funciona de la misma manera a parentelemet, solamente que parentnode, se puede usar en casos especificos.
+
+PROPIEDADES DE SIBILINGS (hermanos) =
+ los elementos hermanos son los que estan al lado de los otros elementos en la misma linea, rango ej: <h2></h2><p></p> ETC.
+
+ nextSibling : se puede utilizar para ver el texto .
+ ej : const contenedor = document.querySelector(".contenedor");
+ const parrafo = document.createElement("P").innerHTML = "parrafo";
+ const h2_nuevo = document.createElement("H2");
+ h2_nuevo.innerHTML = "no titulo"
+ const h2_antiguo = document.querySelector(".h2");
+ console.log(h2_antiguo.nextSibling);
+ de esta forma nos muestra #text. en consola, devido a que muestra el texto siguiente del elemento h2.
+
+ previousSibling : lo mismo que next. solamente que este muestra el texto anterior que h2
+
+ nextElementSibling : const contenedor = document.querySelector(".contenedor");
+ const parrafo = document.createElement("P").innerHTML = "parrafo";
+ const h2_nuevo = document.createElement("H2");
+ h2_nuevo.innerHTML = "no titulo"
+ const h2_antiguo = document.querySelector(".h2");
+ console.log(h2_antiguo.nextElementSibling);
+ de esta forma nos muestra el elemento con su contendio (en html), siguiente al selecionado (h2).
+
+ previousElementSibling : trabaja de la misma forma, solamente que en ves de mostrar el elemento siguiente, muestra el elemento anterior al selecionado (h2)
+
+-----------------------------------------------------------------------
+
+INTRODUCCION A WINDOW = para utilizar es window.la clase siguiente...
+ hereda las propiedades de eventTarget
+ open() : carga un recurso en el contexto de un nuevo navegador O uno que ya existe.
+ close() : cierra la ventana actual, o la ventana en la que se llamo.
+ closed : indica si la ventana referenciada esta cerrada O no.
+ stop() : detiene la carga de recursos en el contexto de navegacion actual.
+ alert() : muestra un cuadro de alerta con el contenido especificado y un boton aceptar.
+ print() : abre el cuadro de dialogo imprimir para imprimir el documento actual.
+ prompt() : abre un cuadro de dialogo con un mensaje que solicita al usuario un dato (string).
+ confirm() : abre un cuadro de dialogo con un mensaje y dos botones: aceptar y cancelar. devuelve valores booleanos en consola.
+
+ screen : devuelve una referencia al objeto de pantalla asociado con la ventana.
+ screenLeft : devuelve la distancia horizontal entre el borde izquierdo del navegador y el borde izquierdo de la pantalla.
+ screenTop : devuelve la distancia vertical entre el borde superior del navegador y el borde superior de la pantalla.
+ scrollX : devuelve el numero de pixeles que el documento se desplaza actualmente Horizontalmente.
+ scrollY : devuelve el numero de pixeles que el documento se desplaza actualmente Verticalmente.
+ scroll() : desplaza la ventana a un lugar particular en el documento. (con options y con posiciones).
+
+ minimize() : minimiza la ventana. (no anda).
+ resizeBy() : cambia el tamaño de la ventana actual a una cantidad especifica.
+ resizeTo() : redimensiona dinamicamente la ventana.
+ moveBy() : mueve la ventana en una ubicacion relativa.
+ moveTo() : mueve la ventana en una ubicacion absoluta.
+
+ availWidth: es el ancho del screen
+ availHeight: es la altura que puede tener la window del browser si esta miximizada
+ screen.height : es el alto total de la pantalla.
+
+HERRAMIENTAS DE DESARROLLO DEL NAVEGADOR (Chrome) (inspeccionar) =
+ PESTAÑA ELEMENTS (elementos) :
+ filtros y buscar por palabra clave.
+ modificar, crear y eliminar etiquetas.
+ modificar propiedades de CSS.
+ event Listeners.
+ propertles.
+ opciones para copiar.
+ seguir explorando.
+
+ PESTAÑA RESOURCES (fuente) :
+ ver y guardar archivos
+ informacion ofrecida
+ cambios en tiempo real
+ snippets
+
+ PESTAÑA NETWORK (Red) :
+ interfaz.
+ sort by y filtros de busqueda.
+ limpiar cookies y cache.
+ importar y esportar.
+ 
+ PESTAÑA TIMELINE/PERFORMANCE (rendimiento) :
+ uso y grabacaion.
+ screenshots de la grabacion.
+ controls.
+ overvlew.
+ flame chart.
+ detalls.
+ sugerencias de grabacion.
+
+EVENTOS: 
+ es cualquier cosa que suceda en la pagina.
+ escucha de eventos O Event Listener.
+ ¡¡¡averiguar porque no funciona!!!
+
+ el objeto de event:
+ el objeto event es el unico parametro que se le pasar a los eventos. ej: (e) , (event) , (evt) ETC.
+ ej:document.addEventListener("click",(e)=> {
+    console.log(this)});.
+
+ ademas el objeto evento y sus propiedades sirven para localizar codigo de forma facil EJ: ocument.addEventListener("click",(e)=> {
+    console.log(e.target)});
+ de esta forma en consola nos va a mostrar el codigo cuando hagamos click en alguna accion.
+
+
+ flujo de eventos O event flow: se refiere al orden en que se van a ejecutar los eventos , tenemos dos tipos de orden.
+ Event Bubbling Y Event Capturing.
+ event bubling (viene por defecto)
+ ej: document.addEventListener("click",(e)=> {
+    alert("esto es el contenedor1")
+ });
+ document.addEventListener("click",(e)=> {
+    alert("esto es el contenedor2")
+  });
+ document.addEventListener("click",(e)=> {
+    alert("esto es el boton")
+ },true);
+ de esta forma al poner ,true se esta selecionando en orden cual va a ser el primero en mostrar la alerta.
+ se puede agregar a mas de uno Y si hay mas de 2 que tiene true, se va a mostrar por orden decendiente del codigo.
+
+ EventstopPropagation. funciona para cuando alguna de las formas anteriores estan en marcha poder DTENER el codigo y hacer que se detebgan las alertas en donde nosotros pongamos el stopPropagation.
+
+ EVENETOS DE MOUSE:
+ click : ocurre con un click.
+ dblclick : ocurre con un doble click.
+
+ mouseover : ocurre cuando el puntero se mueve sobre un elemento o sobre uno de sus hijos.
+ se ejecuta cuando se entra en un elemento.
+ ej: document.addEventListener("mouseover", (event) => {
+    alert("este es el boton1");
+ de esta forma salta la alerta de boton.
+
+ mouseout : ocurre cuando el puntero se mueve fuera de un elemento o de sus elementos secundarios.
+ se ejecuta si se sale de los elementos 
+ ej: document.addEventListener("mouseout", (event) => {
+    alert("este es el boton1");
+ de esta forma salta la alerta de boton.
+ 
+ EVENTOS DE TECLADO:
+ keypress : ocurre cuando una tecla se preciona.
+ ej:document.addEventListener("keypress", (e)=>{
+    console.log("un ususario preciono una telca y la solto")
+ })
+ keydown : ocurre caundo una tecla se deja de presionar.
+ ej: document.addEventListener("keydown", (e)=>{
+    console.log("una tecla fue apretada")
+ })
+
+ keyup : ocurre despues de que los dos eventos anteriores hayan concluido cosecutivamente.
+ ej:document.addEventListener("keyup", (e)=>{
+    console.log("se solto la tecla")
+ })
+
+ EVENTOS DE INTERFAZ: 
+ error: ocurre cuando sucede un error durante la carga de algun archivo multimedia (fotos,videos,etc).
+ ej:
+
+ load: ocurre cuando un objeto se ha cargado.
+
+ beforeunload: ocurre antes de que el elemento este a punto de cargarse.
+
+ unload: ocurre una vez que se ha cargado la pagina.
+
+ resize: ocurre cuando se cambia el tamaño de la vista del documento.
+
+ scoll: ocurre cuando se desplaza la barra de desplazamiento de un elemento.
+
+ select: ocurre cunado algun usuario selecciona algun texto de <input> O <texrarea>.
+ !!!MAS EN HTTPS://WWW.w3schools.com/jsref/obj_events.asp¡¡¡.
+
+ TIMERS (temporalizadores) :
+ setTimeout(): ej: setTimeout(()=>{
+  document.write("holaa")
+ },2000). 
+ como segundo parametro se le puede agregar el temporalizador en milisegundos (2000 MS. son 2s), esto es la cantidad de tiempo que se va a tormar el equipo antes de mostrar el documento "holaa".  
+ puede recibir una funcion como primer parametro ej: 
+ const saludar = ()=>{
+  document.write("holasd")
+ }; setTimeout(saludar,3000);.
+
+ clearTimeout(): esto sirve para elimiar el temporalizador. ej:
+ const temporalizador = setTimeout(()=>{
+  document.write("holaa")
+ },2000); clearTimeout(temporalizador);
+ 
+ setInterval(): sirve para ejecutar constantemente el document(holaa), cada 2000MS apareceria uno nuevo. ej: setInterval(()=>{
+  document.write("holaa")
+ },1000);
+
+ clearInterval(): funciona igual que eliminar timeout.

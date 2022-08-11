@@ -1,0 +1,99 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+:root {
+    /* colores */
+    --header-color1: #201E1C ;
+    --header-color2: #F7931A ;
+    --secondary-blue: #1a9af7;
+    --warm-black: #201E1C;
+    --black: #282623;
+    --grey: #bababa;
+    --of-white: #FAF8F7;
+    --just-white: #fff;
+}
+.main-exchange-contenedor {
+    width: 100%;
+    height: 650px;
+    text-align: center;
+}
+.main-exchange-contenedor--titulo {
+    position: relative;
+    bottom: 350px;
+    width: 90%;
+    min-width: 600px;
+    max-width: 930px;
+    margin: 0 auto;
+}
+.contenedor-tablas {
+	display: flex;
+	flex-wrap: wrap;
+	width: 930px;
+	margin: -250px auto;
+}
+.main-currency-table2 {
+	position: relative;
+	left: 400px;
+	bottom: 60px;
+}
+.main-currency-table1 {
+	position: relative;
+	left: 65px;
+}
+.main-exchange-contenedor .backgroundImg {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    top: 200px;
+    background-image: url(./iconos/imagenes/Bitcoin.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.body-cards--contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	width: 930px;
+	margin: 0 auto;
+	overflow: hidden;
+	align-items: center;
+}
+
+.planes-contenedor--slider {
+	justify-content: center;
+	overflow: hidden;
+}
+.Recomendado , .Basico , .Limitado {
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    top: -15px;
+    left: calc(50% - 60px);
+    font-size: 1.7rem;
+    background-color: var(--secondary-blue);
+    border-radius: 8px;
+    color: var(--black);
+}
+/* .main-plan--CA , .main-plan--CA-2 , .main-plan--CA-3 {
+    width: 150px;
+    height: 48px;
+    margin-top: 25px;
+    background-color: var(--secondary-blue);
+    border: 2px solid var(--secondary-blue);
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: sans-serif;
+} */
+img {
+    width: 30%;
+    height: 30%;
+}
